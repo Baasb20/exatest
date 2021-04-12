@@ -97,7 +97,8 @@ CREATE TABLE drank(
     PRIMARY KEY(id)
 
 );
-
+--https://www.phpzag.com/online-hotel-reservation-system-with-php-mysql/
+--https://stackoverflow.com/questions/33986660/how-to-show-php-duplicate-entry-error-message-on-current-page/
 INSERT INTO `drank` (`id`, `dranknaam`, `prijs`) VALUES (NULL, 'Cola', '3,50'), (NULL, 'Fanta', '2,60'), (NULL, 'Sprite', '2,50'), (NULL, 'pepsi', '0.69'), (NULL, 'Water', '1,,01');
 
 
